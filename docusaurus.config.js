@@ -97,7 +97,7 @@ const config = {
       ],
       navbar: {
         hideOnScroll: true,
-        title: "AI Short",
+        title: "图钉AI提示词大全",
         logo: {
           alt: "ChatGPT Shortcuts",
           src: "img/logo.svg",
