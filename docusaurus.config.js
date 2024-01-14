@@ -113,55 +113,12 @@ const config = {
             label: "🏘️ 社区提示词",
             position: "left",
           },
+         
           {
-            type: "dropdown",
-            label: "🛠️ 应用工具",
+            href: "https://www.tudingai.com/",
+            label: "免费AI工具集合",
             position: "left",
-            items: [
-              {
-                label: "脚本扩展",
-                to: "/docs/guides/extension",
-              },
-              {
-                label: "IMGPrompt",
-                href: "https://prompt.newzone.top/",
-              },
-              {
-                label: "文字处理",
-                href: "https://tools.newzone.top/json-translate",
-              },
-              {
-                label: "工具收藏",
-                href: "https://nav.newzone.top",
-              },
-              {
-                label: "Find on Product Hunt",
-                href: "https://www.producthunt.com/posts/chatgpt-shortcut?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-chatgpt&#0045;shortcut",
-              },
-            ],
-          },
-          {
-            type: "dropdown",
-            label: "反馈建议",
-            position: "left",
-            items: [
-              {
-                label: "📝 提交反馈",
-                to: "/feedback",
-              },
-              {
-                label: "💬 微信交流",
-                href: "https://img.newzone.top/wechat.svg",
-              },
-              {
-                label: "📧 发送邮件",
-                href: "mailto:learndata@newzone.top",
-              },
-              {
-                label: "📺 加入 Discord",
-                href: "https://discord.gg/PZTQfJ4GjX",
-              },
-            ],
+           
           },
           // remove the language dropdown from the navbar (if you only have one language)
           { type: "localeDropdown", position: "right" },
